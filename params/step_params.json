@@ -3,7 +3,7 @@
     {
         "env_name":"user",
         "pipeline_name":"pipeline0",
-        "zone_name":"stand0",
+        "zone_name":"zone0",
         "X": "something"
     },
     "step_params":
