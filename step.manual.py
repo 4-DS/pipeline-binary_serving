@@ -1,6 +1,8 @@
 from sinara.step import Step
 from sinara.step import StepSafeguard as sg
 
+sg.git_reset()
+
 try:
     step = Step(run_params_file_globs="params/step_params.json",
            env_name="user")
