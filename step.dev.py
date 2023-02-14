@@ -2,7 +2,8 @@ from sinara.step import Step
 from sinara.step import StepSafeguard as sg
 
 try:
-    step = Step(run_params_file_globs="params/step_params.json",
+    step = Step(step_params_file_globs="params/step_params.json",
+                pipeline_params_file_globs="params/pipeline_params.json",
            env_name="user")
     for notebook in step.notebooks:
         notebook.run()
