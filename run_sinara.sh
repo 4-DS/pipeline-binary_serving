@@ -52,7 +52,7 @@ if [[ ${runMode} == "q" ]]; then
       docker run -d -p 8888:8888 -p 4040-4060:4040-4060 -v jovyan-work:/home/jovyan/work -v jovyan-data:/data -v jovyan-tmp:/tmp -e DSML_USER=jovyan \
         --name "$containerName" \
         -w /home/jovyan/work \
-        jupyter/pyspark-notebook \
+        buslovaev/sinara-notebook \
         start-notebook.sh \
         --ip=0.0.0.0 \
         --port=8888 \
@@ -105,7 +105,7 @@ else
       docker run -d -p 8888:8888 -p 4040-4060:4040-4060 -v $jovyanWorkPath:/home/jovyan/work -v $jovyanDataPath:/data -v $jovyanTmpPath:/tmp -e DSML_USER=jovyan \
         --name "$containerName" \
         -w /home/jovyan/work \
-        jupyter/pyspark-notebook \
+        buslovaev/sinara-notebook \
         start-notebook.sh \
         --ip=0.0.0.0 \
         --port=8888 \
