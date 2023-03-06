@@ -8,7 +8,8 @@
     },
     "step_params":
     {
-        "Y": "something_else"
+        "Y": "something_else",
+        "step_name": "step_template"
     },
     "substeps_params":
     [
