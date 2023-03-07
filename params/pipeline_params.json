@@ -1,0 +1,9 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"prod",
+        "pipeline_name":"pipeline0",
+        "zone_name":"zone0",
+        "X": "something"
+    }
+}
