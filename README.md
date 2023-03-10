@@ -14,18 +14,26 @@ cd step_template
 
 ## To make use of it, run:
 ```
-bash run_sinara.sh
+bash create.sh
+bash run.sh
 ```
 
 ## To stop using it for a while, run:
 ```
-bash stop_sinara.sh
+bash stop.sh
 ```
 
 ## To continue using it, run:
 ```
-bash run_sinara.sh
+bash run.sh
 ```
+
+## To remove it, run:
+```
+bash remove.sh
+```
+
+![the picture](examples/example.png)
 
 # Developing ML
 
