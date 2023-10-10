@@ -6,9 +6,7 @@ from sinara.bentoml_artifacts.binary_artifact import BinaryFileArtifact
 @env()
 
 @artifacts([
-    TextFileArtifact('ml_model_version'),
-    BinaryFileArtifact('model', file_extension='.pth'),
-    BinaryFileArtifact('model_config', file_extension='.py')
+    BinaryFileArtifact('ml_model_version')
 ])
 class SimplePytorchLightning(BentoService):
     """
